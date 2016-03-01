@@ -21,6 +21,19 @@
     <input type="submit" value="Send">
   </fieldset>
 
+<h3> Check reservation </h3>
 </form>
+<div class="check">
+  <form action='https://www.planyo.com/booking.php?calendar=21289' method='get'>
+  Reservation ID<br/>
+  <input type='text' name='ppp_reservation_id' /><br/>
+  Email address<br/>
+  <input type='text' name='ppp_email' />
+  <input type='hidden' name='mode' value='widget' /><br/>
+  <input type='hidden' name='planyo_lang' value='EN' /><br/>
+  <input type='hidden' name='ppp_widget_type' value='reservation_details' /><br/>
+  <input type='submit' value='Submit' />
+  </form>
+</div>
 
 </section>
