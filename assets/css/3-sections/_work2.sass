@@ -1,0 +1,106 @@
+.section-work
+  overflow-x: hidden
+
+.work-belt
+  width: 200%
+  position: relative
+  left: 0%
+  +transition(all 800ms)
+
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+
+
+.alt-section
+  background: $bgcolor
+
+.thumb-cont
+  max-width: 960px
+  margin: 0px auto
+  padding-bottom: 100px
+  +clearfix
+
+  .thumb-un
+    display: block
+    width: 25%
+    float: left
+    position: relative
+    padding-top: 16%
+    overflow: hidden
+    +perspective(300)
+
+    @media screen and (max-width: 760px)
+      width: 50%
+      padding-top: 26%
+
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+
+    .toverlay
+      +position(absolute, 0% 0px null 0px)
+      height: 100%
+      background: fade-out($accent, 0.2)
+      text-align: center
+      //+transition(200ms)
+      +display(flex)
+      +align-items(center)
+      //+transform(rotateX(90deg))
+      //+transform-origin(center bottom)
+      //opacity: 0
+      @extend %animationstart_fadeIn
+      cursor: pointer
+
+      strong
+        font-family: open sans
+        color: white
+        display: block
+        padding: 0px 20px
+        font-weight: 300
+        text-transform: uppercase
+        font-size: 24px
+        line-height: 1.2
+        +justify-content(space-around)
+
+      .zoom-icon
+        +size(40px)
+        margin: 0px auto
+
+    &:hover .toverlay
+      //top: 0%
+      //+transform(rotateX(0deg))
+      //opacity: 1
+      @extend %fadeIn
+      z-index: 2
+
+.work-container
+  max-width: 600px
+  margin: 0px auto
+  display: none
+
+  h4
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 24px
+    line-height: 1.2
+    color: $accent
+    margin-left: 40px
+
+  img
+    max-width: 100%
+    margin-bottom: 20px
+
+  .work-return
+    +size(40px)
+    cursor: pointer
+    opacity: 0.5
+    +position(absolute, 25px null null)
+
+    path
+      fill: rgba(0,0,0,0.5)
+
+    &:hover
+      opacity: 1

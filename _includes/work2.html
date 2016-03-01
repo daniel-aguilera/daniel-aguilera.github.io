@@ -1,0 +1,24 @@
+<section class="alt-section section-work">
+  <h3 id="gallery">GALLERY</h3>
+  <div class="work-belt">
+
+    <div class="thumb-wrap">
+    <div class="thumb-cont">
+      {% for project in site.data.settings.projects %}
+      <div class="thumb-un" data-folder="{{ project.folder }}" style="background-image: url(/assets/img/work/{{ project.folder }}/thumb.jpg);">
+          <div class="toverlay">
+            <strong>{{ project.name }}</strong>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+   <div class="work-wrap">
+    <div class="work-container">
+      <div class="work-return">{% include icons/icon-back.html%}</div>
+      <h4 class="project-title">Wedding June 2015</h4>
+      <div class="project-load"></div>
+    </div>
+  </div>
+     </div>
+</section>

@@ -1,0 +1,44 @@
+<section>
+
+  <h3 id="about">About Us</h3>
+
+  <div class="face-lockup">
+
+    <div class="face-img"></div>
+
+    <div class="icon-pencil">{% include icons/icon-cake.html %}</div>
+    <div class="icon-mouse">{% include icons/icon-married.html %}</div>
+    <div class="icon-browser">{% include icons/icon-cards.html %}</div>
+    <div class="icon-video">{% include icons/icon-food.html %}</div>
+
+  </div>
+
+  <div class="blurb">
+    <p><strong>Our business is dedicated to serving you.</strong> Our staff will help you to craft the perfect event for any occasion with an incredible
+  attention to detail and the highest of standards. Be it a <a href="https://vimeo.com/119216133">wedding</a>, reunion, anniversary, retirement or
+  company party, our experienced staff will do anything to insure that your event goes exactly as planned
+  while insuring that you are perfectly at ease.</p>
+  </div>
+<p class="ratings">Global Ratings</p>
+  {% if site.data.settings.skills %}
+<center>
+  <div class="skill-lockup">
+
+    {% for skill in site.data.settings.skills %}
+
+      <div class="skill-unit">
+        <div class="skill-label">{{ skill.name }}</div>
+        <div class="skill-icons skill-{{ skill.value }}">
+          {% for i in (1..10) %}
+            <span></span>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+  {% endif %}
+</center>
+</section>
