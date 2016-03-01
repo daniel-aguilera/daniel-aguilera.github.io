@@ -1,29 +1,49 @@
-.cal
-  margin-left: 50px
+.forms
+  max-width: 450px
+  margin: 0 auto 50px
+  text-align: center
 
-  .days th
-    font-size: 15pt
+  .cal
+    margin-left: 50px
 
-  .calpicker th
-    padding-left: 0px
+    .days th
+      font-size: 15pt
 
-.btn-primary
-  float: right
-  background: #c99065
-  color: white
-  font-size: 18px
-  text-transform: uppercase
-  width: 33%
-  border: 3px solid $accent
-  width: 100%
-  +box-sizing(border-box)
-  padding: 10px
-  margin-top: 10px
-  -webkit-appearance: none
-  -moz-appearance: none
-  appearance: none
-  font-size: 16px
+    .calpicker th
+      padding-left: 0px
 
-  &:hover
-    background: $accent-light
+  .btn-primary
+    float: right
+    background: #c99065
     color: white
+    font-size: 18px
+    text-transform: uppercase
+    width: 33%
+    border: 3px solid $accent
+    width: 100%
+    +box-sizing(border-box)
+    padding: 10px
+    margin-top: 10px
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    font-size: 16px
+
+    &:hover
+      background: $accent-light
+      color: white
+
+  #calp_1218993517
+    +size(400px)
+    margin-left: 10px
+
+    @media screen and (max-width: 650px)
+      display: none
+
+  #calp_3891197195
+    display: none
+
+    @media screen and (max-width: 650px)
+      text-align: center
+      margin: 0 auto 50px
+      display: block
