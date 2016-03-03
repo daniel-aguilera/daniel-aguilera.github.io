@@ -64,22 +64,37 @@ clients:
 - {avatar: 'face-married.jpg',
   name: 'Matt & Dominique',
   title: 'Just married',
-  quote: '<p><strong>blablbalblablablallb</strong>addsiaodjasiodjasiodjaidaj odajiansdanodasmd o</p>',
+  quote: '<p><strong>When we started planning our wedding, we had a clear vision of what we wanted.</strong> Diamond Events
+helped us develop our ideas and plan the big day. Everything was perfect! It was everything I had
+imagined and more! I will never forget all of the help that Diamond Events gave us to make our big day
+magical. They are amazing at what they do! ”</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-talk.jpg',
   name: 'Hank Lee',
   title: 'Sony Conference, Mediamont Int.',
-  quote: '<p><strong>jfoasjdiajdaspokadapsodk</strong>asdkpasdkpoakdw faibiad nasoasdpaoskda topo</p>',
+  quote: '<p><strong>“Until this past year, everyone in the office always dreaded attending the yearly conference.</strong> It was
+always so bland and boring, but this year it was held at Diamond Events. They did everything possible to
+make our conference exciting and engaging. The event hall was incredibly well laid out, and the entire
+conference held an air of professionalism. Now that it’s being held at and arranged by Diamond Events,
+everyone looks forward to it all year long! ”</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-party.jpg',
   name: 'Rebecca & Veronica',
   title: 'Social Media Girl',
-  quote: '<p><strong>Yea, adkapskdoasd</strong> àspdlas`dplwl`pal dwoaidmiwoan ieuhredda</p>',
+  quote: '<p><strong>Last month, my friend Amanda held a party at Diamond Events.</strong> The entire thing was amazing! The
+music was awesome and the dance floor was so alive! Nobody there was disappointed, that’s for sure!
+Amanda’s parties are normally always so boring, but with Diamond Events’ help, she threw the party of
+the year! I would totally go to any party being held at Diamond Events!”</p>',
   logo: 'logo3.png'}
 - {avatar: 'face-mom.jpg',
   name: 'Cassidy Michaels',
   title: 'Proud mother',
-  quote: '<p><strong>asdaspdokwpaw</strong>apsodkasodkadnwiuand moierpdaok</p>',
+  quote: '<p><strong>When I was planning my daughter’s seventh birthday party,</strong>I was completely lost, but then I found
+Diamond Events. Not only did they provide a space to hold the party, but they helped me plan the whole
+event. They took care of nearly everything. My daughter and her friends were never bored; the staff at
+Diamond Events was incredible, making sure that the kids were having a great time. The eating situation
+was wonderful too. Not only was the food delicious, but it was affordable too. I would recommend
+Diamond Events for any event you’re planning!</p>',
   logo: 'logo4.png'}
 
 
